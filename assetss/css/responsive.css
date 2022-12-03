@@ -1,0 +1,142 @@
+@media (max-width: 400px) {
+  .Contact .container .content {
+    margin-left: 20px;
+  }
+  main .down-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 85%;
+  }
+}
+@media (max-width: 800px) {
+  main .hero .container .content h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  main .hero .container .content p {
+    font-size: 17px;
+    opacity: 0.7;
+    margin-bottom: 55px;
+  }
+}
+@media (max-width: 992px) {
+  nav {
+    display: none;
+  }
+  main {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/main/mainpic.svg");
+    background-position: 0 0;
+    background-size: 100% 100%, cover;
+  }
+  main header .container .logo {
+    font-size: 25px;
+  }
+  main header .container .list-icon {
+    display: block;
+    color: #000;
+    font-size: 35px;
+  }
+  main .hero .container {
+    min-height: 70vh;
+  }
+  main .hero .container .content {
+    width: 100%;
+  }
+  main .hero .container .content h1 {
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  main .hero .container .content p {
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 55px;
+    width: 320px;
+  }
+  main .hero .container .content .btn-contact {
+    margin-bottom: 20px;
+  }
+  main .hero .container .content .btn-contact:hover {
+    border: 2px solid #242424;
+    background-color: transparent;
+    color: #242424;
+  }
+  main .down-icon {
+    position: absolute;
+    bottom: 30px;
+    left: 85%;
+  }
+  .our-food {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/our-food/Group 145.svg");
+    background-position: 0 0;
+    background-size: 100% 100%, cover;
+  }
+  .our-food .container {
+    width: 98%;
+  }
+  .our-food .container .content {
+    width: 100%;
+    padding: 40px;
+  }
+  .our-food .container .content h2 {
+    font-size: 50px;
+  }
+  .our-food .container .content .list .item h4 {
+    font-size: 30px;
+  }
+  .our-food .container .content .list .item p {
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  .our-food .container .content .list .item img {
+    width: 30px;
+  }
+  .our-food .container .content .btn-contact:hover {
+    border: 2px solid #242424;
+    background-color: transparent;
+    color: #242424;
+  }
+  .plane .container .boxs .card {
+    width: 470px;
+    height: 320px;
+  }
+  .Contact .container .content .modal-body .mask {
+    width: 310px;
+    height: 370px;
+  }
+  .Contact .container .modal-body .mask .logIn .mb .aGree {
+    margin-left: 40px;
+  }
+  .map {
+    min-height: 5vh;
+  }
+  .map .con .imgbox {
+    height: 50vh;
+  }
+  .map .con .comment,
+.map .con .loc {
+    display: none;
+  }
+  .footer {
+    background: #242424;
+    padding-bottom: 25px;
+  }
+  .footer .footup {
+    padding-left: 55px;
+    flex-direction: column;
+    gap: 60px;
+    padding-bottom: 30px;
+  }
+  .footer .footdown {
+    margin: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.577);
+    padding-left: 55px;
+    padding-top: 13px;
+  }
+}
+@media (max-width: 1280px) {
+  .map .con .comment {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */
